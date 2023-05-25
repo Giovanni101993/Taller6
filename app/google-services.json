@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1078995129268",
+    "project_id": "doglife-83f64",
+    "storage_bucket": "doglife-83f64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078995129268:android:bfef5e3c8301352974d8e1",
+        "android_client_info": {
+          "package_name": "com.example.doglife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078995129268-gaf2nc6449d427icabdrpk7tkmjmaul6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0SEIOTa7lRYbHhYr4WZJO4XsHotXh7T8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078995129268-gaf2nc6449d427icabdrpk7tkmjmaul6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

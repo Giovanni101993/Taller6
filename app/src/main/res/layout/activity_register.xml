@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:padding="30dp">
+
+
+    <TextView
+        android:id="@+id/textRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/patas"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textRegistro"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="15dp"
+        android:hint="Nombre"
+        android:minHeight="48dp"
+        android:layout_below="@id/logo"/>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editNombre"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="15dp"
+        android:hint="Email"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editEmail"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="15dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editPassword"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:hint="Repita el password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegistro"
+        android:text="Crear cuenta"
+        android:backgroundTint="@color/botones"
+        android:layout_below="@id/editPassword2"/>
+
+    <TextView
+        android:id="@+id/textLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ya tiene una cuenta? Login"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:layout_below="@id/btnRegistro"/>
+    
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:backgroundTint="@color/botones"
+        android:layout_below="@id/textLogin"/>
+
+</RelativeLayout>
